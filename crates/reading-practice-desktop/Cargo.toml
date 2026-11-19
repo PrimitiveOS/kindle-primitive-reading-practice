@@ -1,0 +1,11 @@
+[package]
+name = "reading-practice-desktop"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+reading-practice-core.workspace = true
+reading-practice-render.workspace = true
+primitive-app.workspace = true
+primitive-ui.workspace = true

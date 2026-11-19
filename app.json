@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "primitive-reading-practice",
+  "dir": "reading-practice",
+  "name": "Reading Practice",
+  "subtitle": "Read a passage and answer questions",
+  "developer": {
+    "name": "Primitive AI"
+  },
+  "categories": [
+    "productivity",
+    "reading"
+  ],
+  "description": "Read twelve original passages in two difficulty levels. Answer three questions per passage, check the explanation after each response, and revisit the text at any point. Progress is saved locally, with a review for missed questions.",
+  "repo": "https://github.com/DoanNguyenTrong/kindle-primitive-reading-practice",
+  "licence": "PolyForm-Noncommercial-1.0.0",
+  "source": "hosted",
+  "icon": "icon.png",
+  "changes": {
+    "network": false,
+    "stops_kindle_ui": false,
+    "starts_at_boot": false,
+    "root_filesystem": false,
+    "hooks": false
+  },
+  "versions": []
+}

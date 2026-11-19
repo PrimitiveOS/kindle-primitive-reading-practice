@@ -1,0 +1,10 @@
+[package]
+name = "reading-practice-render"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+reading-practice-core.workspace = true
+primitive-app.workspace = true
+primitive-ui.workspace = true
