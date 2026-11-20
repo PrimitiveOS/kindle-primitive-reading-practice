@@ -1,6 +1,6 @@
 # Install Reading Practice
 
-After [setting up PrimitiveOS](https://github.com/DoanNguyenTrong/kindle-primitive-launcher/blob/main/docs/INSTALL.md#first-time-setup-over-usb), open **Store** from Launcher.
+After [setting up PrimitiveOS](https://github.com/PrimitiveOS/kindle-primitive-launcher/blob/main/docs/INSTALL.md#first-time-setup-over-usb), open **Store** from Launcher.
 Find **Reading Practice** under **Apps**, tap **Get**, then open it from the Launcher grid.
 
 ## Build a local package

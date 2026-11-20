@@ -12,7 +12,7 @@
     "reading"
   ],
   "description": "Read twelve original passages in two difficulty levels. Answer three questions per passage, check the explanation after each response, and revisit the text at any point. Progress is saved locally, with a review for missed questions.",
-  "repo": "https://github.com/DoanNguyenTrong/kindle-primitive-reading-practice",
+  "repo": "https://github.com/PrimitiveOS/kindle-primitive-reading-practice",
   "licence": "PolyForm-Noncommercial-1.0.0",
   "source": "hosted",
   "icon": "icon.png",
