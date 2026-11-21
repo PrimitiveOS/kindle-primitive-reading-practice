@@ -805,7 +805,7 @@ dependencies = [
 
 [[package]]
 name = "reading-practice-core"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "serde",
  "serde_json",
@@ -813,7 +813,7 @@ dependencies = [
 
 [[package]]
 name = "reading-practice-desktop"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "primitive-app",
  "primitive-ui",
@@ -823,7 +823,7 @@ dependencies = [
 
 [[package]]
 name = "reading-practice-kindle"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "primitive-app",
  "reading-practice-core",
@@ -832,7 +832,7 @@ dependencies = [
 
 [[package]]
 name = "reading-practice-render"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "primitive-app",
  "primitive-ui",
