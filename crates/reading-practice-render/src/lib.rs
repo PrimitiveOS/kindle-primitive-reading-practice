@@ -43,7 +43,7 @@ impl View {
     }
 
     fn draw_library(&self, canvas: &mut Canvas, w: i32) {
-        header(canvas, "Reading Practice", "Done");
+        header(canvas, "Reading Practice", "Exit");
         if let Some(active) = self
             .study
             .active()
