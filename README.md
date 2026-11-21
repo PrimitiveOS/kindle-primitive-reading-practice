@@ -1,34 +1,48 @@
+<div align="center">
+
+<img src="icon.png" alt="Reading Practice icon" width="110">
+
 # Reading Practice
 
-Reading Practice brings twelve original short passages and thirty-six comprehension questions to Kindle. Each passage has three questions with a brief explanation after each answer.
+**Read a passage and answer questions**
 
-- Choose **Level 1** or **Level 2**, then tap a passage or **Continue**.
-- Read the page and tap **Questions**. Open **Passage** from a question to look back at the text.
-- Tap an answer, read the explanation, and choose **Next**. At the end, use **Retry missed** or read the whole passage again.
+[![Release](https://img.shields.io/github/v/release/PrimitiveOS/kindle-primitive-reading-practice?label=release)](https://github.com/PrimitiveOS/kindle-primitive-reading-practice/releases) [![Licence: PolyForm-Noncommercial-1.0.0](https://img.shields.io/badge/licence-PolyForm--Noncommercial--1.0.0-blue)](LICENSE) [![Store downloads](https://img.shields.io/badge/Store%20downloads-18-brightgreen)](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json)
 
-The app saves each passage separately, including the current question and selected answer. Going back to the passage preserves both. All text and practice work offline.
+[**Download**](https://github.com/PrimitiveOS/kindle-primitive-reading-practice/releases/latest) · [**Install guide**](INSTALL.md) · [**Changelog**](CHANGELOG.md)
 
-<table>
-  <tr>
-    <td><img src="docs/images/passage.png" alt="An original reading passage" width="310"></td>
-    <td><img src="docs/images/question-dark.png" alt="A question and its explanation in dark mode" width="310"></td>
-  </tr>
-</table>
+</div>
 
-The screenshots come from the desktop simulation.
+---
 
-## Install
+Read twelve original passages in two difficulty levels. Answer three questions per passage, check the explanation after each response, and revisit the text at any point. Progress is saved locally, with a review for missed questions.
 
-Find **Reading Practice** in PrimitiveOS Store. [Local build and packaging instructions](INSTALL.md)
+## Quick start
 
-## Test locally
+After setting up PrimitiveOS, open **Store** from Primitive Launcher. Choose **Reading Practice** under **Apps**,
+tap **Get**, and open it from the Launcher grid. The [install guide](INSTALL.md) also covers the standalone USB package.
 
-```sh
-cargo test --offline --locked --workspace
-cargo run --offline --locked -p reading-practice-desktop -- build/previews
-```
+## Highlights
 
-See `docs/images/` for captured screens. The simulation uses the Launcher fonts from a sibling checkout.
+- Read twelve original passages in two difficulty levels.
+- Answer three questions per passage, check the explanation after each response, and revisit the text at any point.
+- Progress is saved locally, with a review for missed questions.
+
+## Status
+
+| Device | Status |
+|---|---|
+| Kindle Oasis 3 (1264 × 1680, firmware 5.18.2) | Tested on hardware |
+
+**Current version: 0.1.1.** Changes are in [CHANGELOG.md](CHANGELOG.md).
+
+## Downloads
+
+**18 downloads** from Store, as of 2026-11-21. Store shows the same count on the app page.
+The count is GitHub downloads of this app's release packages, from the [Store catalog](https://primitiveos.github.io/kindle-primitive-catalog/v1/index.json).
+
+## Documentation
+
+[Install guide](INSTALL.md) · [Changelog](CHANGELOG.md)
 
 ## Licence
 
